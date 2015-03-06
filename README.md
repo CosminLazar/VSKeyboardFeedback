@@ -1,5 +1,8 @@
 #Error keyboard feedback
 Changes the illumination settings of your **Roccat Isku FX** keyboard according to the current number of errors in your solution.
+
+By default it will change the background of all the keys to Red when there are errors and to Green when things are tidy and clean
+
 When you exit Visual Studio, the previous keyboard illumination settings will be restored.
 
 ##Installing
