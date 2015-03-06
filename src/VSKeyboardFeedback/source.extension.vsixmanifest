@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="37ac7b0c-2e9a-40b9-9d52-31f41fd42bfa" Version="1.0" Language="en-US" Publisher="CosminLazar" />
+    <Identity Id="37ac7b0c-2e9a-40b9-9d52-31f41fd42bfa" Version="1.1" Language="en-US" Publisher="CosminLazar" />
     <DisplayName>Error keyboard feedback</DisplayName>
     <Description xml:space="preserve">Changes the illumination settings of your Roccat Isku FX keyboard according to the current number of errors in your project.
-This version will change the backgound of all the keys to Red when there are errors and to Green when things are tidy and clean.</Description>
+By default it will change the backgound of all the keys to Red when there are errors and to Green when things are tidy and clean.</Description>
     <MoreInfo>https://github.com/CosminLazar/VSKeyboardFeedback</MoreInfo>
     <License>Resources\LICENSE.txt</License>
     <Icon>Resources\Icon.jpg</Icon>
