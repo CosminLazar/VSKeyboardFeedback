@@ -58,7 +58,7 @@ namespace CosminLazar.VSKeyboardFeedback
                 Debug.Assert(task.Exception != null, "A failed task should have an exception");
                 task.Exception.Flatten().Handle(e =>
                 {
-                    ActivityLog.LogWarning("VSKeyboardFeedback", string.Format("Got {0} error while checking the error tasks", e.GetType()));
+                    ActivityLog.LogWarning(Constants.ApplicationName, string.Format("Got an error while checking the error tasks, error: {0}", e));
                     return true;
                 });
             }, TaskContinuationOptions.OnlyOnFaulted);
