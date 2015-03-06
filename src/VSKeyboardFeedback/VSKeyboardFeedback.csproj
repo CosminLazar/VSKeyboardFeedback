@@ -136,17 +136,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyCaretaker.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="ErrorIterator.cs" />
     <Compile Include="ErrorMonitor.cs" />
     <Compile Include="HResult.cs" />
     <Compile Include="Guids.cs" />
-    <Compile Include="KeyboardCommunicator.cs" />
+    <Compile Include="IskuFxKeyboardCommunicator.cs" />
+    <Compile Include="Options\IOptionsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Options\OptionsControl.xaml.cs">
       <DependentUpon>OptionsControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Options\OptionsControlViewModel.cs" />
     <Compile Include="Options\OptionsDialogPage.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Options\OptionsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Options\RoccatIskuFxSettings.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
